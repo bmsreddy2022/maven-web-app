@@ -10,15 +10,25 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        #content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 36px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to DevOps Education</h1>
-    <p>This page provides resources for learning about DevOps.</p>
-    <ul>
-        <li><a href="https://www.devops.com/training">DevOps.com Training</a></li>
-        <li><a href="https://www.edx.org/course/devops-fundamentals">edx DevOps Fundamentals</a></li>
-        <li><a href="https://www.coursera.org/specializations/devops">Coursera DevOps Specializations</a></li>
-    </ul>
+    <div id="content">
+        <h1>Welcome to DevOps Education</h1>
+        <p>This page provides resources for learning about DevOps.</p>
+        <ul>
+            <li><a href="https://www.devops.com/training">DevOps.com Training</a></li>
+            <li><a href="https://www.edx.org/course/devops-fundamentals">edx DevOps Fundamentals</a></li>
+            <li><a href="https://www.coursera.org/specializations/devops">Coursera DevOps Specializations</a></li>
+        </ul>
+    </div>
 </body>
 </html>
