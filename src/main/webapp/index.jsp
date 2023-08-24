@@ -4,6 +4,13 @@
 <html>
 <head>
     <title>DevOps Education</title>
+    <style>
+        body {
+            background-image: url("https://picsum.photos/id/200/800/600");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to DevOps Education</h1>
